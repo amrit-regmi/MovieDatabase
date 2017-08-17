@@ -1,0 +1,408 @@
+<style>
+	
+	
+	p{
+		font: normal normal 14px Arial, Tahoma, Helvetica, FreeSans, sans-serif;	
+		text-transform: uppercase;
+		margin-top:-15px;
+		padding-top:12px;
+		color:#666;
+		
+	}
+	
+	
+
+	header{
+		width:1023px; height:120px; margin:auto; margin-top:0;
+		background: #3299BB;
+		color: #fff;
+		font-size: 24px;
+	}
+
+	h2{
+		color: #3299BB;
+		font-size: 16px;
+		line-height: 0px;
+		margin-top:-12px;
+		padding-bottom:5px;
+	}
+	#headerright{
+		width:225px ;height:100px; margin-left:10px; float:left;
+		font: normal bold 10px Gruppo;
+		color: #f2f2f2;
+		margin-top:15px;
+		display:block;
+	}
+	a.filldiv {
+    display: block;
+    height: 100px;
+    width: 225px;
+    text-decoration: none;
+	position:absolute;
+	top:0px;
+	right:inherit;
+	left:inherit;}
+	
+	textarea{
+	resize:vertical;
+	}
+
+	#headerleft{
+		width:355px; height:95px; margin-left:28px; 	margin-top:-3px ; float:left; overflow:hidden;
+	}
+	#headerlefttop{
+		 width:400px; height:35px; margin-top:3px; margin-left:-35px;
+	}
+	#headerleftbottom{
+		width:355px; height:50px; margin-top:0px;
+	}
+	#img_top_section{
+		width:300px;
+		height:455px;
+		border:2px;
+		margin:10px 500px 10px 0px;
+		
+	}
+	#headerleft ul li , #headerleft ul li a{
+	display:inline;
+	font: normal normal 10px Arial, Tahoma, Helvetica, FreeSans, sans-serif;
+	color: #f2f2f2;
+	text-transform: uppercase;
+	margin-top:-20px;
+	padding-top:0px;}
+	
+	.section_top{
+		
+		overflow:hidden;
+		background:#fff;
+		box-shadow: auto 5px 3px #6E6E6E;
+		
+		
+	}
+	.section_top div{
+	padding: 0px 0px 0px 0px;
+	margin-left:0px;
+	float:left;
+	overflow:hidden;
+	}
+	.seperator{
+		background-color: #222555;
+		background-repeat: repeat-x;
+		width:100%;
+		height:10px;
+		
+	
+
+	}
+	}
+	.search{
+	border-radius: 3px; border: 1px solid #ccc; font:-webkit-small-control; font-size: 13px; background:#ddd;}
+	
+	ul{
+		list-style-type:none;
+	}
+	nav{width:400px; height:120px; padding-top:0px; margin-top:0px; float:left;
+	} 
+	nav ul{
+	list-style-type:none;height:80px; padding-top:0px; margin-top:0px; 
+	}
+	nav ul li{
+		display:inline-block; height:80px;
+	} 
+
+	nav ul li a:link, nav ul li a:visited, nav ul li a:active{
+  		font-size: 13px;
+  		text-decoration: none;
+		position:relative;
+  		padding: 67px 14px 14px 14px; 
+  		font: italics normal 20px Gruppo;
+  		background-repeat: no-repeat;
+  		background-position: right;
+ 		text-align: bottom;
+ 		color:white;
+ 		overflow: hidden;
+ 		display:block;
+ 		text-transform:uppercase;
+		
+
+	}
+	nav ul li a:hover{
+		color:orange;
+		background-color: #222555;
+		border-bottom: none;
+}
+
+}
+.login_submit{
+	margin:0px 10px 0px 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #fff;
+	padding: 6px 16px;
+	background:#3299BB;
+	border-radius: 9px;
+	border: 0px solid #cccccc;
+	box-shadow:
+		0px 1px 6px rgba(000,000,000,0.5),
+		inset 0px 0px 10px rgba(255,255,255,0.7);
+	text-shadow:
+		0px -1px 0px rgba(002,034,085,0.4),
+		0px 1px 0px rgba(255,255,255,0.3);
+}
+.login_submit:hover{
+	color: orange;
+	background: #fff;
+}
+
+
+.search_submit{
+	margin-top:5px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #fff;
+	padding: 5px 5px;
+	background: #3299BB;
+	border-radius: 2px;
+	border: 0px solid #cccccc;
+	box-shadow:
+		0px 1px 6px rgba(000,000,000,0.5),
+		inset 0px 0px 10px rgba(255,255,255,0.7);
+	text-shadow:
+		0px 0px 0px rgba(255,255,255,0.4),
+		0px 1px 0px rgba(255,255,255,0.3);
+}
+.search_submit:hover{
+	padding:6px 6px -6px -6px;
+	font-size: 15px;
+	color: orange;
+	background: #fff;
+
+}
+.search_submit:active{
+	padding:3px 3px 3px 3px;
+	font-size: 15px;
+	color: orange;
+	background: #222555;
+	}
+.wrap{
+		
+		width:1024px;
+		margin:0 auto;
+		
+		}
+body{
+		font-family: Gruppo;
+		margin-top:0;
+		background-color:black;
+		background-image: url("back.gif");
+		background-repeat:repeat-x;
+		
+		
+		
+		}
+#wrapcontent{
+position:relative;
+border-left: 2px solid #8CDDF4;
+border-right: 2px solid #8CDDF4;
+width:1024px;
+margin:0 auto;
+overflow:hidden;
+background:#ddd;
+min-height: 768px;
+}
+article #leftdiv{
+	height:115px;
+	
+}
+article #rightdiv{
+	width:890px;
+	height:115px;
+}
+
+
+#maincontainer #container{
+float:left;
+width:167px;
+height:247px;
+overflow:hidden;
+}
+
+
+
+.artistlist{
+clear:both;
+
+}
+#maincontainer{
+border: 1px solid black;
+overflow:hidden;
+width:335px;
+height:247px;
+float:left;
+margin:2px 2px 2px 2px;
+}
+#container img{
+width:162px;
+height:243px;
+margin:2px 0px 0px 2px;
+} 
+
+
+
+table tr td {text-align:center;  font: normal normal 14px Gruppo; padding:10px;}
+#content{
+		position:relative;
+		border:10px solid #ddd;
+		width:745px;
+		
+		
+		}	
+#content:hover >.sectionhead{
+display:none;}
+
+.sectionhead{
+	position: absolute;
+	background:#000000;
+	top: 0px;
+	bottom: 10px;
+	right: 0px;
+	left: 0px;
+	z-index: 10;
+	opacity: 0.6;
+	overflow:auto;
+	height: 72px;
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+	margin-top:1px;
+	}
+#section_h1{
+		font-size: 19px !important;
+		line-height: 24px !important;
+		color: #000000 !important;
+		margin-top: 2px;
+		background-color: lightblue;
+		padding-bottom: 10px;
+		padding-top: 10px;
+		z-index: 4;
+		width: 202px;
+		margin-left: 510px;
+		padding-left: 30px;
+		border-top-right-radius:10px;
+		font-weight:bold;
+	}
+#trailers{
+		float:left; height:470px;width:250px; margin-top:12px;border-top-left-radius: 10px; border-top-right-radius: 10px;box-shadow: rgb(136, 136, 136) 5px 5px 5px;background: #fff;position:relative; overflow:hidden;
+		}
+	#trailers:hover >.sectionhead{
+opacity:0;}
+
+.container_div{
+margin:10px; margin-top:12px; border-radius: 10px; box-shadow: rgb(136, 136, 136) 5px 5px 5px;background: #fff;position:relative; overflow:hidden;
+}
+.container_div_h1{
+		margin: 2px 3px 2px;border-top-left-radius:10px;font-weight:bold;width: initial;
+		font-size: 19px !important;
+		line-height: 24px !important;
+		color: #000000 !important;
+		background-color: lightblue;
+		padding-bottom: 10px;
+		padding-top: 10px;
+		padding-left: 30px;
+		border-top-right-radius:10px;
+		font-weight:bold;}
+.container_div_p{
+	padding:10px;
+
+}
+#genre:hover +#genrelist{
+display:block;}
+#genrelist:hover {
+display:block;
+}
+#genrelist{
+position: absolute;
+background: #F8F8F8;
+top: 30px;
+bottom: 10px;
+right: 410px;
+left: 480px;
+z-index: 10;
+opacity: 0.91;
+height: 150px;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+margin-top: 1px;
+display: none;
+box-shadow: rgb(136, 136, 136) 5px 5px 5px;
+}
+ .artistwidget,.moviewidget{
+	background: #F8F8F8;
+	margin:10px;
+	width:600px;
+	
+	
+ 
+ }
+ .moviewidget{
+ min-height:310px;
+ }
+ .artistwidget table tr td,.moviewidget table tr td{text-align:left; font-size:16px; vertical-align: top;}
+ a{
+  color:rgb(1, 65, 107);
+  text-decoration:none;
+ }
+ .index_pop_movie{
+ float:left; margin:2px; margin-top:5px; margin-bottom:10px;position:relative; width:190px; font-size:18px; text-align:center;
+ 
+ }
+ .index_pop_movie_rating{
+ position:absolute; left:6px;
+ }
+ 
+ .index_pop_movie a:hover  >.index_pop_movie_rating{
+ opacity:0;
+ }
+ #edit_btn{
+ position: absolute;
+border-radius: 0px;
+box-shadow: rgb(136, 136, 136) 5px 5px 5px;
+background: #fff;
+z-index: 2;
+left: 833px;
+padding: 10px;
+color:rgb(1, 65, 107);
+}
+#roles_and_movie td{
+font-size:16px;
+
+}
+.btn, .cmt_btn{
+   border-top: 1px solid #96d1f8 ; 
+   margin-top:5px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #fff !important;
+	padding: 5px 5px;
+	background: #3299BB !important;
+	border-radius: 2px !important;
+	border: 0px solid #cccccc !important;
+	box-shadow:
+		0px 1px 6px rgba(000,000,000,0.5),
+		inset 0px 0px 10px rgba(255,255,255,0.7)!important;
+	text-shadow:
+		0px 0px 0px rgba(255,255,255,0.4),
+		0px 1px 0px rgba(255,255,255,0.3)!important;
+   }
+.btn:hover , .cmt_btn:hover {
+   border-top-color: #28597a !important;
+   background: #28597a !important;
+   color: #ccc !important;
+   }
+.btn:active , .cmt_btn:active {
+   border-top-color: #1b435e !important;
+   background: #1b435e !important;
+   }
+ 
+
+
+</style>
